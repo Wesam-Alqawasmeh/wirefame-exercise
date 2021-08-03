@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+
+}
+
+header {
+display: grid;
+grid-template-columns: 200px auto;
+text-align: center;
+align-items: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+article {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+img {
+    padding: 15px;
+}
+
+
+span p {
+    overflow: scroll;
+}
+
+article span p{
+    height: 300px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+span a {
+    padding: 15px;
+    transition: 350ms;
+}
+
+article span a:hover{
+    color:black;
+    background-color: gray;
+}
+
+
+footer{
+    height: 150px;
+}
